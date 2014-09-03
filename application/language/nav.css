@@ -1,0 +1,302 @@
+/*
+|---------------------------------------------------------------
+| TOP NAVIGATION
+|---------------------------------------------------------------
+*/
+
+#topMenuContainer{
+    position: relative;
+    margin-left:0px;
+    text-align: center;
+    height: 45px;
+    border: 0px dotted rgb(255, 0, 0);
+    display:block;
+    float:left;
+   
+}
+
+#topNav{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    position:relative;
+    left:0px;
+    height:45px;
+    background:transparent;
+
+}
+
+#topNav li {
+    float: left;
+    display:block;
+    height:45px;
+    margin-right:0px;
+    border:0px #FF0000 solid;
+    padding: 0px;
+    position: relative; /*--Declare X and Y axis base for sub navigation--*/
+    list-style:none;
+}
+
+
+
+#topNav li a{
+    padding: 0px 0px;
+    height:45px;
+    width:100%;
+    line-height:100%;
+    display: block;
+    text-decoration: none;
+    text-indent: -3000px;
+}
+
+  /* submenu, it's hidden by default */
+         #topNav ul {
+             background:url("../images/dropdown_bg_new.png") repeat-x;
+             position:absolute;
+             left:0;
+             display:none;
+             padding:10px 10px 0 10px;
+             list-style:none;
+             text-align: left;
+             width:153px;
+             float: left;
+             height:175px;
+             margin-top: -3px;
+             text-align: center;
+             font-weight: bolder;
+             font-size: 11px;
+             letter-spacing: 1px;
+         }
+
+         /* display block will make the link fill the whole area of LI */
+         #topNav ul li {
+             width:143px;
+             float:left;
+             border:0px solid #ff0000;
+             height:25px;
+         }
+
+         #topNav ul a {
+		     text-align:left;
+             display:block;
+             height:25px;
+             padding-top: 10px;
+			 padding-left:10px;
+             color:#000;
+             border:0px solid #00ff00;
+             text-indent:0em;
+         }
+
+         #topNav ul a:hover {
+             text-decoration:none;
+             color: white;
+             text-shadow: #6FF 0px 0px 5px;
+			 background-color: #0867ac;
+			 margin-left: -10px;
+			 padding-left:20px;
+			 padding-top: 10px;
+			 width: 153px;
+			 height:20px;
+         }
+
+
+
+#topNav li.product > a{
+    background:url("../images/nav_menu.png")  no-repeat 0px 0px;
+    width:128px;
+}
+
+#topNav li.product  > a:hover{
+    background:url("../images/nav_menu.png")  no-repeat 0px -45px;
+    width:128px;
+}
+#topNav li.product ul{
+    float: left;
+}
+
+          #topNav ul li.tm01{
+                width:143px;
+            }
+            #topNav ul li.tm01 a{           
+            }
+            #topNav ul li.tm01 a:hover{            
+            }
+
+            #topNav ul li.tm02{
+                width:143px;            
+            }
+            #topNav ul li.tm02 a{             
+            }
+            #topNav ul li.tm02 a:hover{            
+            }
+
+			#topNav ul li.tm03{
+                width:143px;            
+            }
+            #topNav ul li.tm03 a{             
+            }
+            #topNav ul li.tm03 a:hover{            
+            }
+
+			#topNav ul li.tm04{
+                width:143px;            
+            }
+            #topNav ul li.tm04 a{             
+            }
+            #topNav ul li.tm04 a:hover{            
+            }
+
+			#topNav ul li.tm05{
+                width:143px;            
+            }
+            #topNav ul li.tm05 a{             
+            }
+            #topNav ul li.tm05 a:hover{            
+            }
+
+			#topNav ul li.tm06{
+                width:143px;            
+            }
+            #topNav ul li.tm06 a{             
+            }
+            #topNav ul li.tm06 a:hover{            
+            }
+
+
+#topNav li.support > a{
+  background:url("../images/nav_menu.png")  no-repeat -128px 0px;
+  width:115px;
+  
+}
+
+#topNav li.support > a:hover{
+  background:url("../images/nav_menu.png")  no-repeat -128px -45px;
+  width:115px;
+}
+
+#topNav li.support ul{
+    float: left;
+}
+
+            #topNav ul li.tm11{
+                width:143px;
+            }
+            #topNav ul li.tm11 a{                
+            }            
+            #topNav ul li.tm11 a:hover{                
+            }
+
+            #topNav ul li.tm12{
+                width:143px;
+            }            
+            #topNav ul li.tm12 a{                
+            }
+            #topNav ul li.tm12 a:hover{                
+            }
+
+
+#topNav li.aboutus > a{
+  background:url("../images/nav_menu.png")  no-repeat -243px 0px;
+  width:121px;
+  
+}
+
+#topNav li.aboutus > a:hover{
+  background:url("../images/nav_menu.png")  no-repeat -243px -45px;
+  width:121px;
+}
+
+#topNav li.aboutus ul{
+    float: left;
+}
+
+            #topNav ul li.tm21{
+                width:143px;
+            }
+            #topNav ul li.tm21 a{                
+            }
+            
+            #topNav ul li.tm21 a:hover{                
+            }
+
+            #topNav ul li.tm22{
+                width:143px;
+            }            
+            #topNav ul li.tm22 a{                
+            }
+            #topNav ul li.tm22 a:hover{                
+            }
+             
+
+#topNav li.newsevent > a{
+  background:url("../images/nav_menu.png")  no-repeat -364px 0px;
+  width:162px;
+  
+}
+
+#topNav li.newsevent > a:hover{
+  background:url("../images/nav_menu.png")  no-repeat -364px -45px;
+  width:162px;
+}
+
+#topNav li.newsevent ul{
+    float: left;
+}
+
+            #topNav ul li.tm31{
+                width:143px;
+            }
+            #topNav ul li.tm31 a{                
+            }
+            
+            #topNav ul li.tm31 a:hover{                
+            }
+
+            #topNav ul li.tm32{
+                width:143px;
+            }            
+            #topNav ul li.tm32 a{                
+            }
+            #topNav ul li.tm32 a:hover{                
+            }
+
+
+
+#topNav li.contactus {
+    width:121px;
+}
+
+#topNav li.contactus a{
+    background:url("../images/nav_menu.png")  no-repeat -526px 0px;
+    width:121px;
+}
+
+#topNav li.contactus a:hover{
+    background:url("../images/nav_menu.png")  no-repeat -526px -45px;
+    width:121px;
+}
+
+
+/*
+|---------------------------------------------------------------
+| LEFT NAVIGATION FOR PRODUCT
+|---------------------------------------------------------------
+*/
+
+.titleCategory_left {
+	font-size:20px; 
+	color:#333; 
+	font-weight:bold; 
+	margin:60px 0px 15px 0px;
+}
+
+li.{ list-style:none; }
+.leftNavtitle{ width:150px; height:25px;  background:#0180c8; font-size:12px; line-height:20px; padding-left:10px; padding-top:3px; color:#e6e6e6; cursor:pointer; font-weight:bold; text-transform:uppercase;}
+.leftNavtitle:hover{ width:150px; height:25px;  background:#0180c8; font-size:12px; line-height:20px; padding-left:10px; color:#e6e6e6; cursor:pointer;  font-weight:bold;}
+.rolinList{ width:160px; height:auto; margin:5px 0px 0px -40px; text-align:left}
+.rolinList li{margin-bottom:1px;}
+.content { height:150px; width:160px;}
+.content a{ font-size:12px; color:#0180c8; font-weight:bold; }
+.content a:hover{ font-weight:bold; color:#111; }
+.content p{ margin:12px}
+
